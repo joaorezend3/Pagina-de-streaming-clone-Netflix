@@ -1,0 +1,166 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
+:root {
+  --color-black--: #000000;
+  --color-gray--: #222222;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gotham", sans-serif;
+  color: white;
+  background-color: var(--color-black--);
+}
+.top {
+  height: 650px;
+  background: rgba(0, 0, 0, 0.7) url("/assents/imgs/netiflix-bg-top.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px;
+}
+#options {
+  font-weight: bolder;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 30px;
+  height: 38px;
+  width: 100px;
+  text-align: center;
+}
+#options:focus {
+  border: solid 2px white;
+}
+
+button.login {
+  height: 38px;
+  width: 80px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  background-color: #e50914;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*  */
+
+.text-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.text-top h1 {
+  font-size: 3.125rem;
+  font-weight: 500;
+}
+.text-top h2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.text-top h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+#email {
+  padding: 10px;
+  height: 58px;
+  width: 450px;
+  font-weight: bolder;
+}
+button#submit {
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  font-size: 1.7rem;
+  padding: 2px;
+  height: 58px;
+  width: 160px;
+  cursor: pointer;
+}
+/*hr = linhas  */
+hr {
+  width: 100%;
+  height: 2vh;
+  background-color: var(--color-gray--);
+}
+.recommendations {
+  display: flex;
+  flex-direction: column;
+}
+.container-recommendations {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 80px 0 80px;
+height: 500px;
+}
+.text {
+  margin: 10% 10% 0 0;
+}
+.text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+.text h2 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-align: start;
+  font-weight: 400;
+}
+.loop {
+  position: relative;
+  height: 350px;
+  width: 500px;
+}
+.img img {
+  overflow: hidden;
+  height: 400px;
+  width: 500px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: relative;
+}
+
+.animation {
+  position: absolute;
+  top: 22%;
+  right: 12%;
+}
+.animation video {
+  z-index: 1;
+  height: 230px;
+  width: 380px;
+}
+/*  */
+.containerDois .text{
+  margin: 10% 0 0 10%;
+}
+.containerDois h1 {
+  font-size: 3rem;
+  white-space: nowrap;
+}
+.containerDois video{
+height: 200px;
+width: 315px;
+}
+
+.containerDois .animation{
+top: 10%;
+right: 20%;
+}
