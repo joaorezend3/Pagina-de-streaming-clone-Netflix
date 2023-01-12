@@ -27,14 +27,23 @@ header {
   display: flex;
   padding: 20px;
 }
+.globo {
+  position: absolute;
+  top: 33px;
+}
 #options {
   font-weight: bolder;
   background-color: transparent;
   color: #fff;
   margin-right: 30px;
   height: 38px;
-  width: 100px;
+  width: 110px;
   text-align: center;
+  overflow: hidden;
+}
+option {
+  background-color: #ccc;
+  color: #000;
 }
 #options:focus {
   border: solid 2px white;
@@ -94,9 +103,9 @@ button#submit {
   cursor: pointer;
 }
 /*hr = linhas  */
-hr {
+.line {
   width: 100%;
-  height: 2vh;
+  height: 8px;
   background-color: var(--color-gray--);
 }
 .recommendations {
@@ -107,13 +116,13 @@ hr {
   justify-content: space-between;
   display: flex;
   padding: 20px 80px 0 80px;
-height: 500px;
+  height: 500px;
 }
 .text {
   margin: 10% 10% 0 0;
 }
 .text h1 {
-  font-size: 3.5rem;
+  font-size: 2.6rem;
   margin-bottom: 20px;
 }
 .text h2 {
@@ -148,19 +157,99 @@ height: 500px;
   width: 380px;
 }
 /*  */
-.containerDois .text{
+
+.containerDois .text {
   margin: 10% 0 0 10%;
 }
 .containerDois h1 {
   font-size: 3rem;
   white-space: nowrap;
 }
-.containerDois video{
-height: 200px;
-width: 315px;
+.containerDois video {
+  height: 200px;
+  width: 315px;
+}
+.containerDois .animation {
+  top: 10%;
+  right: 20%;
 }
 
-.containerDois .animation{
-top: 10%;
-right: 20%;
+.kid .text h1 {
+  font-size: 2.9rem;
+}
+/* containerTry
+ */
+.containerTry .animation {
+  top: 80%;
+}
+.containerTry .card {
+  z-index: 1;
+  align-items: center;
+  border: 2px solid hsla(0, 0%, 100%, 0.25);
+  min-width: 15em;
+  border-radius: 0.75em;
+  bottom: 8%;
+  background: #000;
+  box-shadow: 0 0 2em 0 #000;
+  transform: translateX(-12%);
+  display: flex;
+  padding: 0.25em 0.65em;
+  position: relative;
+}
+.containerTry .card img {
+  height: 50px;
+  width: 50px;
+}
+.textCard {
+  padding: 20px;
+}
+.textCard h4 {
+  font-weight: 900;
+}
+.textCard h5 {
+  color: #005abc;
+}
+.container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+}
+.container h1 {
+  margin: 0 0 5% 0;
+  font-size: 3rem;
+}
+.btn-exibir {
+  cursor: pointer;
+  border: 0;
+  font-weight: 400;
+  margin-top: 1.5vh;
+  width: 60%;
+  height: 80px;
+  padding: 20px 30px;
+  background-color: #303030;
+  color: #fff;
+  text-align: start;
+  font-size: 1.6rem;
+}
+.content {
+  font-size: 1.6rem;
+  border: 0;
+  font-weight: 400;
+  margin-bottom: 1px;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  width: 60%;
+  background-color: #303030;
+  color: #fff;
+}
+footer {
+  padding: 60px;
+  text-align: center;
+}
+footer svg {
+  color: #e50914;
+}
+footer svg:hover {
+  color: #440003;
 }
