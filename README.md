@@ -1,9 +1,10 @@
 ﻿
 # Página da Netiflix
+Descrição:
+Nesse projeto a ideia e de refazer a página da Netiflix sem nenhum framework.
 
 ![iffod](https://github.com/joaorezend3/page_netflix/blob/master/gifreadme.gif)
 
-Nesse projeto a ideia e de refazer a página da Netiflix sem nenhum framework.
 
 ## 🛠  Linguagens de progamação usadas  
 Javascript, HTML, CSS...
