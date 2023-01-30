@@ -15,7 +15,7 @@ body {
 }
 .top {
   height: 650px;
-  background: rgba(0, 0, 0, 0.7) url("/assents/imgs/netiflix-bg-top.jpg");
+  background: rgba(0, 0, 0, 0.7) url("../imgs/netiflix-bg-top.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
