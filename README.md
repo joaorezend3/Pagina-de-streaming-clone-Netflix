@@ -1,5 +1,7 @@
-﻿# Página de streaming clone Netflix"
+# Página de streaming clone Netflix
+
 ![img](https://github.com/joaorezend3/Pagina-de-streaming-clone-Netflix/blob/master/Page-Netflix.gif)
+
 ## Sobre o Projeto:
 
 O projeto consiste em criar uma página simples da Netflix utilizando HTML, CSS e JavaScript.
@@ -16,7 +18,7 @@ O principal desafio enfrentado foi o de alinhar os vídeos dentro das imagens de
 
 - Faça o clone do repositório
 
-  `git clone https://github.com/` 
+  `git clone https://github.com/joaorezend3/Pagina-de-streaming-clone-Netflix.git` 
 
 - Abra o arquivo index.html em um navegador
 
